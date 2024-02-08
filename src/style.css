@@ -7,12 +7,20 @@ Date: 2024-02-06
 Github: https://github.com/levaibalazs/
 Licenc: GNU GPL
 */
+
+body{
+  background-color: rgba(0, 0, 255, 0.1);
+  margin: 0;
+}
+
 .container{
     margin: 5%;
 }
 
 .table {
     border-collapse: separate;
+    border: 1px solid black;
+    padding: 10px;
     
   }
   .table th, .table td{
@@ -23,4 +31,35 @@ Licenc: GNU GPL
 
   td, th {
     border-radius: 10px;
+  }
+
+  tr:nth-child(odd){
+    background-color:aqua;
+  }
+
+  nav{
+    border: 1px solid black;
+    margin: 0;
+    border-top: 0;
+  }
+/*epulet.html css code*/
+  .epulet{
+    background-image: url(images/konyvtar.jpg);
+  }
+
+  .belso{
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    opacity: 0.57;
+  }
+  
+  .doboz{
+    margin-top:20px ;
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    background-image: linear-gradient(navy, lightblue);
+    box-shadow:  15px -15px 15px purple;
+    
   }
